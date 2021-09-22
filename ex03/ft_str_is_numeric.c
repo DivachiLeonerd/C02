@@ -1,8 +1,8 @@
-int ft_str_is_alpha(char    *str)
+int ft_str_is_numeric(char    *str)
 {
     while (*str != '\0')
     {
-        if (!(65 < *str < 90) || !(97 < *str < 122))
+        if (!(48 < *str < 57))
         {
             return (0);
         }
