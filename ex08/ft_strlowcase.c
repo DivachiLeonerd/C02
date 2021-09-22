@@ -5,9 +5,9 @@ char    *ft_strupcase(char  *str)
     original = str;
     while (*str != '\0')
     {
-        if (97 < *str < 122)
+        if (65 < *str < 90)
         {
-            *str = *str - 32;
+            *str = *str + 32;
         }
         str++;
     }
